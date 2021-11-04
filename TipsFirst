@@ -1,0 +1,51 @@
+import Foundation
+import SwiftUI
+import UIKit
+class User {
+    
+    
+    //tabbed user and tabbed refector and press memberwise initializers
+    init(name: String, fName: String, lName: String, address: String, id: String = UUID().uuidString) {
+        self.name = name
+        self.fName = fName
+        self.lName = lName
+        self.address = address
+        self.id = id
+    }
+    
+    var name: String
+    var fName: String
+    var lName: String
+    var address: String
+    var id: String = UUID().uuidString
+}
+
+
+struct Person {
+    //tabbed edit and press formet and press spelinggrammer and tabbed checkspellinggrammer
+   let examplePropertyName = false
+  
+}
+
+
+
+// tabbed editor menue and press fixallissue
+//class  exampleClassOne: NSObject, UITableViewDataSource{
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        <#code#>
+//    }
+//
+//}
+
+
+//tilling the simulator
+//open simulator yani running simulator or press window menue and prees  tile window to right
+
+
+//find data of minimap press 1 minute of command key aand show all data
+
+// not change preview in swiftui by another file tapped in ios preview bottom cornar tabbed pinning view
